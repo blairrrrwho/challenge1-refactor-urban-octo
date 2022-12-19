@@ -5,7 +5,6 @@
 }
 
 /* rearranged the order of the CSS properties to follow the semantic structure of the HTML elements */
-
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -60,7 +59,6 @@ body {
 p {
     font-size: 16px;
 }
-
 
 .float-left {
     float: left;
