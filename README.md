@@ -7,11 +7,14 @@ This repository is to refactor the existing code for Horiseon in order to make t
 N/A
 
 ## Usage
-As a marketing agency, this website follows the accessibility standards to allow for higher positioning in search engines. With said features added, those using assistive technology will be able to interpret images and text throughout the page and easily comprehend the webpage's layout and content. 
+As a user....
+marketing agency, this website follows the accessibility standards to allow for higher positioning in search engines. With said features added, those using assistive technology will be able to interpret images and text throughout the page and easily comprehend the webpage's layout and content. 
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
 
-![alt text](assets/images/screenshot.png)
+https://github.com/blairrrrwho/horiseon-refactor/issues/6#issue-1503687178
+To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax
+
+![Horiseon Refactor](assets/images/horiseon-refactor-screenshot.png)
 
 
 ## Credits
