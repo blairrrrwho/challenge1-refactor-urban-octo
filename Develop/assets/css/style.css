@@ -1,12 +1,15 @@
+/* rearranged the order of the CSS properties to follow the semantic structure of the HTML elements */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-/* rearranged the order of the CSS properties to follow the semantic structure of the HTML elements */
-/* changed header from a class selector to an element selector */
+body {
+    background-color: #d9dcd6;
+}
 
+/* changed header from a class selector to an element selector */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -54,14 +57,26 @@ a {
     background-position: center;
 }
 
-body {
-    background-color: #d9dcd6;
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
 
-p {
-    font-size: 16px;
+/* combined these classes; previously displayed individually with the same properties */
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
 }
 
+/* combined these classes; previously displayed individually with the same properties */
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+    max-height: 200px;
+}
 
 .float-left {
     float: left;
@@ -73,31 +88,14 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-/* combined the classes that are set to display the same properties as each other */
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* combined the classes that are set to display the same properties as each other */
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
-    max-height: 200px;
-}
-
-/* combined the classes that are set to display the same properties as each other */
+/* combined these classes; previously displayed individually with the same properties */
 .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
+}
+
+p {
+    font-size: 16px;
 }
 
 .benefits {
@@ -111,28 +109,26 @@ p {
     background-color: #2589bd;
 }
 
-
-/* combined the classes that are set to display the same properties as each other */
+/* combined these classes; previously displayed individually with the same properties */
 .benefit-lead, .benefit-brand, .benefit-cost{
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* combined the classes that are set to display the same properties as each other */
+/* combined these classes; previously displayed individually with the same properties */
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* combined the classes that are set to display the same properties as each other */
+/* combined these classes; previously displayed individually with the same properties */
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-
-/* deleted the footer class and changed the css call out the footer element */
+/* changed the footer from a class selector to an element selector */
 footer {
     padding: 30px;
     clear: both;
