@@ -16,8 +16,6 @@ Those who use assistive technologies to interpret text and images on a webpage w
 Both the editor of the webpage and those who view it will now have a better experience, as the objective overall was to improve the codebase's functionality and layout for now and the future - to simplify the editing process, and improve the user experience.
 
 
-https://github.com/blairrrrwho/horiseon-refactor/issues/6#issue-1503687178
-
 ![Horiseon Refactor](assets/images/horiseon-refactor-screenshot.png)
 
 
