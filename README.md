@@ -1,4 +1,4 @@
-# Code Refactor for Horiseon Webpage
+# Refactor Code for Horiseon Webpage
 
 ## The Main Goal
 The big idea here is to refactor the existing code for the Horiseon webpage in order to make the site more accessible. The first objective is to edit the codebase so that it meets the accessibility standards needed to optimize the page for seearch engines. 
